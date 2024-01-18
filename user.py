@@ -30,7 +30,7 @@ async def main(client: telethon.TelegramClient):
             await qr_login.recreate()
 
 TELEGRAM_API_ID=25341863
-TELEGRAM_API_HASH=bad3ed24ef22b48762c15b8be2cee496
+TELEGRAM_API_HASH='bad3ed24ef22b48762c15b8be2cee496'
 
 client = TelegramClient("SessionName", TELEGRAM_API_ID, TELEGRAM_API_HASH)
 client.loop.run_until_complete(main(client))
